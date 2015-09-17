@@ -1,0 +1,132 @@
+// ==========================================================================
+// Tablet Custom Styles
+// ==========================================================================
+
+// Header
+.header {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  .bg-rgba(@black, 0%);
+}
+
+// Banner
+.banner-inner { padding-top: 70px; }
+.banner-lead {
+  .font-size(48);
+  .line-height(64);
+}
+
+// Banner Headings
+.banner-lead-1, .banner-lead-2 { .block; }
+
+// Banner Content
+.banner-content {
+  .col-8;
+  .no-float;
+  margin-bottom: 40px;
+}
+
+// Banner Buttons
+.banner-buttons {
+  padding-bottom: 40px;
+  .button { margin: 0 10px; }
+}
+
+// Hamburger Button (hide for tablet and above)
+.navigation-toggle-label { .none; }
+
+// Navigation
+.navigation {
+  max-height: none;
+  opacity: 1;
+  .right;
+  margin-top: 0;
+  clear: none;
+}
+
+// Navigation Menu
+.navigation-menu {
+  .list-inline;
+  .inline-block;
+  margin-top: 10px;
+  .navigation-item {
+    .inline-block;
+    margin: 0 10px;
+    & > a {
+      .font-size(13);
+      .line-height(16);
+      color: @white;
+      padding: 10px 0;
+      .relative;
+      &:before {
+        .transition(0.1s);
+        width: 0px;
+        height: 3px;
+        background: @pink;
+        content: "";
+        .block;
+        bottom: 0;
+        left: 50%;
+        .absolute;
+      }
+      &:hover, &.active {
+        color: @white;
+        &:before {
+          left: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// About - Clients
+.about-content {
+  .row;
+}
+.clients-list {
+  li {
+    .col-6;
+    padding: 2px;
+  }
+}
+// About - Team
+.team-list {
+  li {
+    .col-4;
+    .no-padding;
+  }
+}
+.team-item-name { margin-bottom: 100px; }
+
+// Modal Team Profile
+.team-profile-image {
+  width: auto;
+  .img-left;
+  margin-bottom: 0;
+}
+.team-profile-content-block {
+  overflow: hidden;
+}
+
+// Services Block
+.services-block { margin-top: -80px; }
+.service-item {
+  .col-3;
+  min-height: 280px;
+}
+
+// Contact Block
+.contact-block-content { margin-bottom: 0; }
+
+// Footer
+.icon-list-inline {
+  margin-top: 0;
+  .text-right;
+}
+
+// Modal
+.modal-inner {
+  margin: 20px auto;
+  width: 600px;
+}

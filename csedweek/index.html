@@ -138,6 +138,10 @@
 			$("html").niceScroll({cursorborder:"0px solid #fff",cursorwidth:"5px",scrollspeed:"70"});
 			}
 			);
+
+
+            //Closes the menu by tapping anywhere and not just the toggle
+            $("#page").on("click",function(e) { $.sidr('close'); }); 
 		</script>
 </body>
 </html>

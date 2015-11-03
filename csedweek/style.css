@@ -161,6 +161,7 @@ table {
 	font-weight: 600;
 	font-size: 12px;
 	text-transform: uppercase;
+min-width: 300px;
 }
 .green
 {	color: #fff;

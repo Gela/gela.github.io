@@ -332,6 +332,10 @@ and (orientation : landscape)
 		.responsive-menu-button {
 			padding-top: 40px;
 		}
+
+		.blue-header {
+			padding-top: 90px !important;
+		}
 }
 @media only screen and (max-width: 767px){
 #mobile-header {

@@ -255,7 +255,13 @@ and (orientation : landscape)
     		line-height: 35px;
 		}
 		.button-section ul li {
-    		margin: 50px 12px;
+    		margin: 10px 20px;
+		}
+
+		.button-section ul li a
+		{
+			display: inline-block;
+			width: 150px;
 		}
 		.white, .green {
     		padding: 15px;

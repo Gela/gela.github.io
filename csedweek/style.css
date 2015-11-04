@@ -162,6 +162,11 @@ table {
 	font-size: 12px;
 	text-transform: uppercase;
 }
+
+.top-button:hover {
+	opacity: 0.8;
+}
+
 .green
 {	color: #fff;
 	padding: 17px 30px;
@@ -172,6 +177,14 @@ table {
 	background-color: #fff;
 	padding: 17px 30px;
 	color: #4e4f4f;
+}
+
+.red
+{
+	background-color: #DF6F57;
+	padding: 17px 30px;
+	color: #fff;
+
 }
 .color-border
 {

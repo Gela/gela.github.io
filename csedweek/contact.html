@@ -45,7 +45,25 @@
     	<div class="container">
         	<h2 class="blue-header">Contact</h2>
             
-           Coming soon!
+                <form action="/my-handling-form-page" method="post">
+                    <div>
+                        <input type="text" onfocus="if(this.value == 'Your Name') { this.value = ''; }" value="Your Name" id="name" />
+                    </div>
+                    <div>
+                        <input type="email" onfocus="if(this.value == 'Your Email') { this.value = ''; }" id="mail" value="Your Email" />
+                    </div>
+                    <div>
+                        <textarea id="msg" value="Your Message"></textarea>
+                    </div>
+                    
+                    <br />
+                    <div class="button-section">
+                            <ul>
+                                <li><a target="_blank" href="https://docs.google.com/forms/d/14nyPNA3WiCMBhINRijK1On8jZvHpmUqshYh6ddWo48g/" class="top-button red">UB Students Signup Form</a></li>  
+                            </ul>
+                        </div>
+                    </div>
+                </form>
 
         </div>
     </div>

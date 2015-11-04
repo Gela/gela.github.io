@@ -1,14 +1,7 @@
-/* CSS Document */
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn,  img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -275,6 +268,25 @@ p.box-desc
 	height: 60px;
 	display: inline-block;
 }
+
+
+.feature-icon-precollege
+{
+	background:url(images/feature-icons-precollege.png) no-repeat;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+
+.feature-icon-ubstudents
+{
+	background:url(images/feature-icons-ubstudents.png) no-repeat;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+
+
 .icon1
 {
 	background-position: -1px -1px;
@@ -567,5 +579,10 @@ display: none;
 
 .answer {
 	color: #2D879B !important;
+	font-weight: 300 !important;
 	
+}
+
+.answer a {
+	color: #2D879B;
 }

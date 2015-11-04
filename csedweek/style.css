@@ -150,8 +150,15 @@ table {
 .button-section ul li
 {
 	display: inline-block;
-	margin: 50px 20px;
+	margin: 10px 20px;
 }
+
+.button-section ul li a
+{
+	display: inline-block;
+	width: 300px;
+}
+
 .top-button
 {
 	

@@ -404,7 +404,7 @@ form input
 	margin-top: 30px;
 	font-family: 'Open Sans', sans-serif;
 	box-shadow: none;
-	border: 2px solid #f7f6f6;
+	border: 2px solid rgba(225, 111, 123, 0.3);
 	transition: all 0.5s ease-in;
 	-moz-transition: all 0.5s ease-in;
 	-o-transition: all 0.5s ease-in;
@@ -424,7 +424,7 @@ form textarea
 	height: 180px;
 	margin-top: 30px;
 	font-family: inherit;
-	border: 2px solid #f7f6f6;
+	border: 2px solid rgba(225, 111, 123, 0.3);
 	font-family: 'Open Sans', sans-serif;
 	resize: none;
 	transition: all 0.5s ease-in;
@@ -436,28 +436,24 @@ form textarea
 }
 button.submit
 {
-	background: #1C97CA;
-border: medium none;
-color: #FFF;
-padding: 15px 10px;
-font-size: 18px;
-font-weight: 600;
-font-family: "Open Sans",sans-serif;
-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
--webkit-transition: all 0.3s ease 0s;
--ms-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
-margin-top: 20px;
-transition: background 0.3s ease-in;
-cursor: pointer;
-display: block;
-margin: 30px auto 0px;
-border-radius : 5px;
+	border: medium none;
+	color: #FFF;
+	padding: 15px 10px;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 20px;
+	cursor: pointer;
+	display: block;
+	margin: 30px auto 0px;
+	border-radius : 5px;
+	text-transform: uppercase;
+	width: 80%;
 }
 button.submit:hover
 {
-	background:#888;
+	opacity: 0.8;
+	transition: all 0.3s ease 0s;
 }
 form input:focus
 {

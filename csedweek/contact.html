@@ -46,27 +46,16 @@
         	<h2 class="blue-header">Contact</h2>
             
             <p> This page is still under construction. If you need to contact us, please send us an email at <a href="mailto:cse-edweek@buffalo.edu">cse-edweek@buffalo.edu</a>.
-                <form action="/my-handling-form-page" method="post">
-                    <div>
-                        <input type="text" onfocus="if(this.value == 'Your Name') { this.value = ''; }" value="Your Name" id="name" />
-                    </div>
-                    <div>
-                        <input type="email" onfocus="if(this.value == 'Your Email') { this.value = ''; }" id="mail" value="Your Email" />
-                    </div>
-                    <div>
-                        <textarea id="msg" value="Your Message"></textarea>
-                    </div>
+                <div class="contact-section">
                     
-                    <br />
-                    <br />
-
-                    <div class="button-section">
-                            <ul>
-                                <li><a target="_blank" href="" class="top-button red">Submit</a></li>  
-                            </ul>
-                        </div>
-                    </div>
-                </form>
+                        <form action="mail.php" method="POST">
+                            <input type="text" name="name" placeholder="Name" />
+                            <input type="email" name="email" placeholder="Email"/>
+                            <textarea name="message" placeholder="Message" rows="6"></textarea>
+                            <button type="submit" class="submit red">Send Message</button>
+                        </form>
+                    
+                </div>
 
         </div>
     </div>

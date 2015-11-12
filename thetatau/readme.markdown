@@ -1,0 +1,12 @@
+#MAGE Developers
+Ava Chai,  Elliot King,  Gelareh Malek Pour,  Mark Starczewski
+
+#Xbox Override
+Concept: The oculus rift already comes standard with an Xbox one controller, and by using Windows 10, a live stream from the Xbox can be sent to the rift for a simple virtual reality experience. However, this feature does not take advantage of the rift’s head tracking capabilities. We plan to modify the rift and controller interface in order to add this feature. Upon completion of the project, the rift’s head tracking should be able to replace the input of one joystick on the Xbox controller, in theory, for any game.
+
+#Details: 
+An interface such as this would yield better experiences in different kinds of games. It would likely have the best results with first person shooter games where the right joystick’s controls will be replaced by the rift’s motion capture. In the majority of shooters, the right joystick controls the viewing direction of the player, which makes it the natural choice. As a rift user looks up, down, left, or right, the character on screen would respond accordingly. This creates different ways to handle the input from the rift as well. We currently have two ways to handle it, one being to have the player be mobile and retain a natural 360  ?  field of view. As in, to look behind them, the player would turn around in the real world. The second option is to handle the input in a similar way to the joystick, where moving it initiates the character to start turning, but to stop turning, the user has to re-center the joystick. To use the same example of turning around in this configuration, a user would look left or right to make the camera turn, but when it reaches the desired view, the user would “re-center” by looking straight ahead to stop the movement. This second option would only require the player to move their head as opposed to their entire body which is what the first option would need.
+
+#Other uses:  
+This modification is mostly planed with first person shooters involved, but in theory it would be able to be used with any game since it is replacing the input of the joystick completely. This would result in experiencing different ways in vastly different ways. Something like a card game might play much more smoothly if card selection is handled by head motion instead of a joystick for example. There are numerous ways that this combination of inputs can alter a gamer’s experience, and part of the challenge will be to adapt it to fit them all in the most immersive way possible. 
+

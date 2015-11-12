@@ -1,0 +1,18 @@
+@media(max-width:800px){
+    .rush-letter-wrapper{
+        margin-left:3%;
+        margin-right:3%;
+    }
+    #rush{
+        height:1200px;
+    }
+    .rush-role-wrapper{
+        height:10%;
+    }
+    .rush-letter-wrapper >p{
+        font-size:11px;
+    }
+    .rush-chair-signoff{
+        padding-left:35%;
+    }
+}

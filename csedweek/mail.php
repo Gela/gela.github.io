@@ -7,5 +7,5 @@
 	$subject = "UB CSE Week - Contact Form";
 	$mailheader = "From: $email \r\n";
 	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-	header('Location: thankyou.html');
+	header('Location: thankyou');
 ?>

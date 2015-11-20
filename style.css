@@ -1,0 +1,96 @@
+html, body {
+	color: #46404c;
+  height: 100%; /*sticky footer*/
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #46404c;
+  text-decoration: none;
+}
+
+a:hover {color: #111; text-decoration: none; }
+a:active {color: #111; text-decoration: none; }
+
+p {
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+#content {
+  background-color: #e6e7e9;
+  /*background-image: url(img5mirror-cropped.jpg);*/
+  background-size: cover;
+  opacity: 0;
+  min-height: 100%;
+  height: auto;
+}
+
+#name {
+  font-size: 32px;
+  font-family: "Dawning of a New Day",  Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  #name {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+}
+
+#blurb {
+	margin: auto 24px auto 20%;
+	padding-top: 30px;
+}
+
+@media (max-width: 480px) {
+  #blurb {
+    margin: auto 24px auto 16%;
+  }
+}
+
+#links {
+  float: right;
+  margin: 18px 10%;
+  text-align: right;
+}
+
+@media (max-width: 671px) {
+  #links {
+    display: none;
+  }
+}
+
+#links-bottom {
+  margin-top: 24px;
+}
+
+@media (min-width: 670px) {
+  #links-bottom {
+    display: none;
+  }
+}
+
+#attribution {
+  color: #f2f1ef;
+  float: right;
+  font-size: 12px;
+  margin-top: -40px;
+  margin-right: 10%;
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  #attribution {
+    color: #52424d;
+  }
+}

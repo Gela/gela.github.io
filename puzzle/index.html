@@ -23,7 +23,7 @@
     margin: 1rem auto 0 auto;
   }
   h1 span {
-    background: #333;
+    background: #76b852;
     color: #FFF;
     padding: 0.2em;
     display: inline-block;
@@ -159,19 +159,26 @@
 </head>
 <body>
   <form id="gui" class="hidden">
-    <h1><span class="s1">Sliding</span><span class="s2">Puzzle</span></h1>
+
+  <!--I hate myself for doing this but this is due in 1.5 hours and I haven't had much sleep in days, soooo...-->
+  <br />
+  <br />
+  <br />
+  <br />
+
     <p>
-      <label for="file" id="file_label">Pick an image or video to start…</label>
+      <label for="file" id="file_label">Pick an image to start…</label>
       <input type="file" id="file" size="10" />
     </p>
     <div id="reminder">
-      <p>(When playing, touch the empty space to pause and look at game statistics)</p>
+      <h2>DMS 221</h2>
+      <h2> Gela Malek Pour </h2>
     </div>
   </form>
   <div id="paused">
     <div class="infos">
       <h2>Game Paused</h2>
-      <p>Touch the screen to resume…</p>
+      <p>Touch to resume</p>
       <dl style="display: none;"> <!-- time elapsed is buggy when app is unloaded, remove it for now -->
         <dt>Time elapsed:</dt><dd><span id="elapsed">x</span> seconds </dd>
       </dl>
